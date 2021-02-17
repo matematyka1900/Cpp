@@ -66,19 +66,6 @@ int main() {
     srand(time(NULL));
     const int MAX_ORDER = 7;
     BST<int>* bst = new BST<int>();
-    bst->add(9, compareNode);
-    bst->add(1, compareNode);
-    bst->add(5, compareNode);
-    bst->add(3, compareNode);
-    bst->add(7, compareNode);
-    bst->add(4, compareNode);
-    bst->add(8, compareNode);
-    bst->add(13, compareNode);
-    bst->add(10, compareNode);
-    bst->add(12, compareNode);
-    bst->add(11, compareNode);
-
-    bst->preOrder(displayNode);
    
     delete bst;
 }
