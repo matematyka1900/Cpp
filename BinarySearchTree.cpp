@@ -1,6 +1,4 @@
-///    ALGO2 IS1 214B LAB05
-///    Maciej Pokora
-///    pm46618@zut.edu.pl
+
 
 #include <iostream>
 #include <stdlib.h>
